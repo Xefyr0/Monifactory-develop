@@ -30,12 +30,6 @@ ServerEvents.recipes(event => {
     event.remove({ id: "gtceu:shapeless/credit_platinum" })
     event.remove({ id: "gtceu:shapeless/credit_platinum_alt" })
 
-    event.recipes.gtceu.extractor('fluid_platinum')
-        .outputFluids(Fluid.of('gtceu:platinum', 48))
-        .itemInputs('gtceu:platinum_credit')
-        .duration(40)
-        .EUt(7)
-
     // Void Air (normal air)
     event.recipes.gtceu.gas_collector('void_air')
         .dimension('javd:void')
