@@ -27,8 +27,6 @@ ServerEvents.recipes(event => {
     // Glider
     event.replaceInput({ id: "hangglider:glider_framework" }, 'minecraft:iron_ingot', 'gtceu:iron_rod')
     event.replaceInput({ id: "gtceu:shaped/basic_circuit_board" }, 'gtceu:copper_single_wire', 'gtceu:fine_copper_wire')
-    event.remove({ id: "gtceu:shapeless/credit_platinum" })
-    event.remove({ id: "gtceu:shapeless/credit_platinum_alt" })
 
     // Void Air (normal air)
     event.recipes.gtceu.gas_collector('void_air')
