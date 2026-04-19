@@ -36,22 +36,21 @@ GTCEuServerEvents.oreVeins(event => {
         )
     })
 
+    // Azurite vein to make Copper easier to get earlygame
     event.add("overworld/azurite", vein => {
-        vein.weight(50)
-        vein.density(1.0)
-        vein.clusterSize(50)
+        vein.weight(55)
+        vein.density(0.1)
+        vein.clusterSize(30)
         vein.layer("stone")
         vein.dimensions("minecraft:overworld")
-        vein.heightRangeUniform(20, 60)
-        vein.veinedVeinGenerator(generator => generator
-            .oreBlock(GTMaterials.Malachite, 1)
-            .oreBlock(GTMaterials.get("azurite"), 2)
-            .oreBlock(GTMaterials.Calcite, 1)
-            .rareBlock(GTMaterials.Barite, 1)
-            .veininessThreshold(0.001)
-            .maxRichnessThreshold(0.1)
-            .minRichness(0.4)
-            .maxRichness(1.0)
+        vein.heightRangeUniform(40, 65)
+        vein.layeredVeinGenerator(generator => generator
+            .buildLayerPattern(pattern => pattern
+                .layer(l => l.weight(2).mat(GTMaterials.get("azurite")).size(1, 3))
+                .layer(l => l.weight(2).mat(GTMaterials.Malachite).size(2, 3))
+                .layer(l => l.weight(1).mat(GTMaterials.Copper).size(1, 2))
+                .layer(l => l.weight(1).mat(GTMaterials.Calcite).size(1, 1))
+            )
         )
         vein.surfaceIndicatorGenerator(indicator => indicator
             .surfaceRock(GTMaterials.get("azurite"))
