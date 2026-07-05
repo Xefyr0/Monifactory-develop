@@ -958,9 +958,9 @@
 					type: "item"
 				}
 				{
-					id: "0FCD265BAF7F9526"
-					optional_task: true
-					type: "checkmark"
+					id: "38A5BF7FD03E9DE3"
+					item: "kubejs:moon_dust"
+					type: "item"
 				}
 			]
 			title: "{moni.quest.7DE2C9292A09FC76.title}"
