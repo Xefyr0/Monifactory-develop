@@ -127,7 +127,7 @@ ServerEvents.recipes(event => {
         .itemInputs("gtceu:wetware_circuit_board", "24x minecraft:sculk_vein", "8x gtceu:stem_cells")
         .inputFluids("gtceu:sodium_persulfate 3000", "gtceu:iron_iii_chloride 1500", "enderio:xp_juice 1000")
         .itemOutputs("gtceu:wetware_printed_circuit_board")
-        .EUt(480)
+        .EUt(GTValues.VA[GTValues.HV])
         .duration(1800)
         .cleanroom(CleanroomType.CLEANROOM)
 
@@ -162,7 +162,7 @@ ServerEvents.recipes(event => {
             "12x gtceu:advanced_smd_diode",
             "24x gtceu:ram_chip",
             "4x gtceu:uhpic_chip",
-            "8x gtceu:cryolobus_double_wire",
+            "8x gtceu:enriched_naquadah_trinium_europium_duranide_double_wire",
             "8x gtceu:europium_plate"
         )
         .inputFluids("gtceu:advanced_soldering_alloy 1152", "gtceu:polyethyl_cyanoacrylate 1152")
@@ -183,7 +183,7 @@ ServerEvents.recipes(event => {
             "12x gtceu:advanced_smd_diode",
             "24x gtceu:ram_chip",
             "4x gtceu:uhpic_chip",
-            "8x gtceu:cryolobus_double_wire",
+            "8x gtceu:enriched_naquadah_trinium_europium_duranide_double_wire",
             "8x gtceu:europium_plate"
         )
         .inputFluids("gtceu:living_soldering_alloy 576", "gtceu:polyethyl_cyanoacrylate 1152")

@@ -1653,6 +1653,7 @@
 					type: "item"
 				}
 				{
+					disable_toast: true
 					id: "734A8736E913F3B9"
 					item: {
 						Count: 1
@@ -1665,6 +1666,7 @@
 					type: "item"
 				}
 				{
+					disable_toast: true
 					id: "44D6926CD41BC346"
 					item: {
 						Count: 1
