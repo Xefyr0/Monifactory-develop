@@ -168,7 +168,7 @@ Most quest chapters in the "Main Progression" have a sidebar-like arrangement of
 
 ### Quest Links and dependency relationships ###
 
-All quests should have at least one dependency except the quests in the "dependencies" chapter and the first quest in Genesis.
+When starting a new world, all Main Progression quests should be locked behind one or more dependencies except the quests in the "dependencies" chapter and the first quest in Genesis.
 
 Some quests may be helpful to have in multiple chapters. Quest Links are used to accomplish this.
 1. If a quest is needed in multiple "Main Progression" chapters, then the quest should be present in the earliest of those chapters and a quest link made in all subsequent chapters.

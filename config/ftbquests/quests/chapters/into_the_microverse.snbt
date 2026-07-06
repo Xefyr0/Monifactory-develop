@@ -1177,6 +1177,7 @@
 			y: -4.5d
 		}
 		{
+			dependencies: ["66FCC26399376B55"]
 			description: ["{moni.quest.6A8764DDD3489EE8.description1}"]
 			icon: "minecraft:ender_eye"
 			id: "6A8764DDD3489EE8"
