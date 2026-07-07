@@ -1297,7 +1297,7 @@
     "moni.quest.34B614453B9682C7.description4": "The last restriction pipes have is whether or not they can transfer &6Acids, Cryogenics, Gases, or Plasma&r. If a fluid pipe is not rated to transfer the latter and you attempt to do so, &cyou will lose the fluid and the pipe&r. Only &6Neutronium&r and &6Duranium&r fluid pipes can transfer all 4.",
     "moni.quest.34B614453B9682C7.title": "Fluid Pipes",
     "moni.quest.34F0E33D33EB82E2.description1": "&6Gas Turbine Generators&r are another good &eEU&r generation choice when starting out, and scale better into the midgame than &9Steam&r-based power.",
-    "moni.quest.34F0E33D33EB82E2.description2": "If you're looking to get into power generation with a &6Gas Turbine Generator&r as early as &7LV&r, your best fuel option is &9Methane Gas&r centrifuged from biomatter.",
+    "moni.quest.34F0E33D33EB82E2.description2": "If you're looking to get into power generation with a &6Gas Turbine Generator&r as early as &7LV&r, your best fuel option is &9Methane Gas&r centrifuged from &6Rubber Logs&r.",
     "moni.quest.358D9A7B1BCFA30A.description1": "&6Carbon Fibers&r are useful for a variety of things.",
     "moni.quest.358D9A7B1BCFA30A.description2": "&2They are made with Carbon Dust and polymers. Higher tier polymers grant higher yields. It's also not a chanced output anymore.",
     "moni.quest.358D9A7B1BCFA30A.title": "&2Carbon Fibers",
