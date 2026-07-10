@@ -2126,6 +2126,7 @@
 				""
 				"{moni.quest.360B577684B1AB1B.description2}"
 			]
+			icon: "gtceu:soc_wafer"
 			id: "360B577684B1AB1B"
 			rewards: [{
 				id: "386430CD06FF62A0"
