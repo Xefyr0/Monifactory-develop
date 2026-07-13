@@ -31,7 +31,7 @@ GTCEuStartupEvents.registry("gtceu:material", event => {
         .color(0x035155).secondaryColor(0x04203d).iconSet("dull")
         .blastTemp(6800, "higher")
         .flags(GTMaterialFlags.GENERATE_PLATE, GTMaterialFlags.GENERATE_ROD, GTMaterialFlags.GENERATE_DENSE, GTMaterialFlags.GENERATE_FRAME, GTMaterialFlags.GENERATE_ROTOR)
-        .rotorStats(180, 150, 5.0, 5120)
+        .rotorStats(200, 150, 5.0, 5120)
 
     event.create("cryococcus")
         .ingot().fluid()
