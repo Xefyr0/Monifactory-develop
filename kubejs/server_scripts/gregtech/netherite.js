@@ -146,7 +146,7 @@ ServerEvents.recipes(event => {
         )
     })
 
-    // Turbine blades shouldn't be Smithed
+    // Turbine rotors shouldn't be smithed, only the individual blades
     event.recipes.gtceu.assembler("assemble_activated_netherite_turbine_blade")
         .itemInputs("8x gtceu:activated_netherite_turbine_blade", "gtceu:long_magnalium_rod")
         .itemOutputs(Item.of("gtceu:turbine_rotor", "{GT.PartStats:{Material:\"gtceu:activated_netherite\"}}"))
