@@ -11,7 +11,8 @@
     "item:gtceu:turbine_rotor{GT.PartStats:{Material:\"gtceu:rose_gold\"}}",
     "item:gtceu:turbine_rotor{GT.PartStats:{Material:\"gtceu:sterling_silver\"}}",
     "item:gtceu:turbine_rotor{GT.PartStats:{Material:\"gtceu:tungsten\"}}",
-    "item:gtceu:turbine_rotor{GT.PartStats:{Material:\"gtceu:iridium\"}}"
+    "item:gtceu:turbine_rotor{GT.PartStats:{Material:\"gtceu:iridium\"}}",
+    "item:gtceu:turbine_rotor{GT.PartStats:{Material:\"gtceu:chromium\"}}"
   ],
   "disable": true
 }

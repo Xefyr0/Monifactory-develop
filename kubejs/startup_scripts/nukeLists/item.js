@@ -154,6 +154,7 @@ global.itemNukeList = [
     "gtceu:sterling_silver_turbine_blade",
     "gtceu:tungsten_turbine_blade",
     "gtceu:iridium_turbine_blade",
+    "gtceu:chromium_turbine_blade",
 
     // Hammerlib
     /^hammerlib:/,
