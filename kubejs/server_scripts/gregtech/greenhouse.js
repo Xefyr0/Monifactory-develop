@@ -99,9 +99,9 @@ ServerEvents.recipes(event => {
     Greenhouse("thermal", "rubberwood_sapling", 1280, ["64x thermal:rubberwood_log"], 2, 4)
 
     // //// Crops //////
-    Greenhouse("minecraft", "sugar_cane", 640, ["32x minecraft:sugar_cane"], 2, 0)
+    Greenhouse("minecraft", "sugar_cane", 320, ["32x minecraft:sugar_cane"], 2, 0)
     Greenhouse("minecraft", "kelp", 640, ["32x minecraft:kelp"], 4, 0)
-    Greenhouse("minecraft", "bamboo", 640, ["48x minecraft:bamboo"], 2, 0)
+    Greenhouse("minecraft", "bamboo", 320, ["48x minecraft:bamboo"], 2, 0)
     Greenhouse("minecraft", "cactus", 640, ["32x minecraft:cactus"], 0.5, 0)
     Greenhouse("minecraft", "wheat_seeds", 640, ["32x minecraft:wheat"], 1, 0)
     Greenhouse("minecraft", "carrot", 640, ["32x minecraft:carrot"], 1, 0)
