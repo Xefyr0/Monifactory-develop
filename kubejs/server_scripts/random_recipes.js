@@ -636,7 +636,7 @@ ServerEvents.recipes(event => {
     // Wither Gas consumption
     event.recipes.gtceu.gas_turbine("wither_gas_generator")
         .inputFluids("gtceu:wither_gas 1")
-        .duration(140)
+        .duration(280)
         .EUt(-GTValues.V[GTValues.LV])
 
     // Wither Gas
