@@ -85,7 +85,7 @@ ServerEvents.recipes(event => {
         .EUt(GTValues.VA[GTValues.MV])
 
     event.recipes.gtceu.chemical_reactor("calcium_perchlorate_from_calcite")
-        .notConsumable("gtceu:vanadium_pentoxide_dust")
+        .notConsumable(doHarderProcessing ? "gtceu:vanadium_pentoxide_dust" : "gtceu:vanadium_dust")
         .itemInputs("5x gtceu:calcite_dust", "3x gtceu:sodium_hydroxide_dust")
         .inputFluids("gtceu:chlorine 2000", "gtceu:oxygen 7000")
         .itemOutputs("11x gtceu:calcium_perchlorate_dust", "12x gtceu:sodium_bicarbonate_dust")
