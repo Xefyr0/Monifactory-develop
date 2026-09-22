@@ -303,6 +303,7 @@ ServerEvents.recipes(event => {
                 "64x gtceu:raw_emerald",
                 "64x gtceu:raw_emerald",
                 "64x gtceu:raw_sapphire",
+                "64x gtceu:raw_amethyst",
             )
     })
 
