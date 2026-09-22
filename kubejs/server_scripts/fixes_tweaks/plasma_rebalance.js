@@ -4,12 +4,12 @@
  */
 
 ServerEvents.recipes(event => {
-    // Nerf Helium Plasma EU per mB to 80% of its original value
+    // Nerf Helium Plasma EU per mB to 60% of its original value
     event.recipes.gtceu.plasma_generator("helium")
         .inputFluids("gtceu:helium_plasma 1")
         .outputFluids("gtceu:helium 1")
         .EUt(-GTValues.V[GTValues.EV])
-        .duration(1.6 * 20)
+        .duration(1.2 * 20)
 
     // Change plasma fusion recipes to input/output multiples of 144mB for metals instead of 16mB
     event.findRecipes({ type: "gtceu:fusion_reactor"}).forEach(recipe => {
