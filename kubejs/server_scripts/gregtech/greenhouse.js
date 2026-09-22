@@ -76,7 +76,7 @@ ServerEvents.recipes(event => {
             .itemInputs("1x thermal:phytogro")
             .inputFluids(Fluid.of("minecraft:water", 4000 * waterMod))
             .itemOutputs(boostedOutputs)
-            .duration(duration / 4)
+            .duration(duration / 10)
             .EUt(80)
     }
 
