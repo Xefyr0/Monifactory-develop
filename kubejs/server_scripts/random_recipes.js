@@ -64,6 +64,14 @@ ServerEvents.recipes(event => {
         .duration(20)
         .EUt(GTValues.VA[GTValues.LV])
 
+    // End Stone
+    event.recipes.gtceu.chemical_reactor("dust_to_end_stone")
+        .itemInputs("kubejs:dust")
+        .inputFluids(Fluid.of("thermal:ender", 500))
+        .itemOutputs("minecraft:end_stone")
+        .duration(20)
+        .EUt(GTValues.VA[GTValues.MV])
+
     // Lava from Magma
     event.recipes.gtceu.chemical_reactor("lava_from_magma")
         .itemInputs("minecraft:magma_block")
