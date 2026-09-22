@@ -29,11 +29,12 @@ ServerEvents.recipes(event => {
         .EUt(GTValues.VA[GTValues.IV])
 
     // Crystal Matrix Line
-    event.recipes.gtceu.forge_hammer("crystal_seeds_from_exquisite_diamond")
+    event.recipes.gtceu.chemical_bath("crystal_seeds_from_exquisite_diamond")
         .itemInputs("gtceu:exquisite_diamond_gem")
-        .chancedOutput("kubejs:crystal_seeds", 500, 0)
+        .inputFluids("gtceu:darmstadtium 36")
+        .chancedOutput("kubejs:crystal_seeds", 50, 0)
         .duration(200)
-        .EUt(GTValues.VA[GTValues.EV])
+        .EUt(GTValues.VA[GTValues.IV])
 
     const wafers = [
         ["gtceu:", "naquadah_wafer"],
@@ -64,7 +65,7 @@ ServerEvents.recipes(event => {
             .chancedOutput("kubejs:grown_nanotube_substrate", 7000, 0)
             .chancedOutput("kubejs:failed_nanotube_substrate", 3000, 0)
             .chancedItemOutputLogic(ChanceLogic.XOR)
-            .duration(2880 * fluid_type.amount)
+            .duration(720 * fluid_type.amount)
             .EUt(GTValues.VA[GTValues.IV])
             .cleanroom(CleanroomType.CLEANROOM)
     })
@@ -81,7 +82,7 @@ ServerEvents.recipes(event => {
     event.recipes.gtceu.cutter("nanotube_separation")
         .itemInputs("kubejs:grown_nanotube_substrate")
         .itemOutputs("4x kubejs:carbon_nanotubes")
-        .chancedOutput("kubejs:nanotube_substrate", 9500, 0)
+        .chancedOutput("kubejs:nanotube_substrate", 6000, 0)
         .duration(240)
         .EUt(GTValues.VA[GTValues.EV])
         .cleanroom(CleanroomType.CLEANROOM)
