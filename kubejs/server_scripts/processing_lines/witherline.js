@@ -17,9 +17,9 @@ ServerEvents.recipes(event => {
 
     event.recipes.gtceu.centrifuge("centrifuge_withering_powder")
         .itemInputs("8x enderio:withering_powder")
-        .inputFluids("gtceu:formic_acid 2500")
+        .inputFluids("gtceu:formic_acid 1000")
         .itemOutputs("4x gtceu:coal_dust", "3x gtceu:stolzite_dust", "gtceu:arsenic_trioxide_dust")
         .chancedOutput("1x gtceu:biphenyl_dust", 5000, 0)
-        .duration(22 * 20)
+        .duration(18 * 20)
         .EUt(GTValues.VA[GTValues.HV])
 })
