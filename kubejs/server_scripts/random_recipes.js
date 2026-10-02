@@ -902,4 +902,12 @@ ServerEvents.recipes(event => {
         .outputFluids("gtceu:benzene")
         .duration(6 * GTValues.SECONDS)
         .EUt(GTValues.VA[GTValues.HV])
+
+    // Separate Chromium out of Chromite
+    event.recipes.gtceu.electromagnetic_separator("chromium_from_chromite")
+        .itemInputs("gtceu:chromite_dust")
+        .chancedOutput("gtceu:chromium_dust", 6000, 0)
+        .chancedOutput("gtceu:ferrous_oxide_dust", 3000, 0)
+        .duration(15 * GTValues.SECONDS)
+        .EUt(GTValues.VA[GTValues.MV])
 })
