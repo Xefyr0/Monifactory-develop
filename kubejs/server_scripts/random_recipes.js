@@ -910,4 +910,14 @@ ServerEvents.recipes(event => {
         .chancedOutput("gtceu:ferrous_oxide_dust", 3000, 0)
         .duration(15 * GTValues.SECONDS)
         .EUt(GTValues.VA[GTValues.MV])
+
+    // Roast Potassium Dichromate directly from Chromite
+    event.recipes.gtceu.electric_blast_furnace("potassium_dichromate_from_chromite")
+        .itemInputs("7x gtceu:chromite_dust", "3x gtceu:potassium_hydroxide_dust")
+        .inputFluids("gtceu:oxygen 4000")
+        .itemOutputs("11x gtceu:potassium_dichromate_dust", "5x gtceu:yellow_limonite_dust")
+        .outputFluids("gtceu:steam 16000")
+        .blastFurnaceTemp(1700)
+        .duration(4 * GTValues.SECONDS)
+        .EUt(GTValues.VA[GTValues.MV])
 })
