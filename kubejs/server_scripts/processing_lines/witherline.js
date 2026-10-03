@@ -10,6 +10,7 @@ ServerEvents.recipes(event => {
         .category("gtceu:macerator_recycling")
     event.recipes.gtceu.macerator("macerate_wither_rose")
         .itemInputs("minecraft:wither_rose")
+        .chancedOutput("gtceu:bio_chaff", 500, 0)
         .chancedOutput("enderio:withering_powder", 200, 0)
         .duration(40)
         .EUt(GTValues.VA[GTValues.LV])
